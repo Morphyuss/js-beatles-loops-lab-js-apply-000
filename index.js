@@ -1,3 +1,4 @@
+/*
 function theBeatlesPlay(musicians, instruments) {
   let array = [];
   for(var i = 0; i < instruments.length; i++) {
@@ -5,6 +6,7 @@ function theBeatlesPlay(musicians, instruments) {
   }
 return array;
 }
+
 
 function johnLennonFacts(jlfacts) {
   var i = 0;
@@ -15,6 +17,7 @@ function johnLennonFacts(jlfacts) {
   return jlfacts;
 }
 
+
 function iLoveTheBeatles(aNumber) {
   var array= [];
   do {
@@ -23,72 +26,37 @@ function iLoveTheBeatles(aNumber) {
   } while (aNumber < 15);
   return array;
 }
-
-
-
-
-/*
-function iLoveTheBeatles(aNumber) {
-  var emptyArray = [];
-  var i = 0;
-  do {
-    emptyArray + "I love the Beatles!";
-    i++;
-  }
-  while (aNumber < 15 );
-}
-return iLoveTheBeatles();
 */
 
 
-/* 
-var result = '';
-var i = 0;
-do {
-   i += 1;
-   result += i + ' ';
-} while (i > 0 && i < 5); 
-
-
-var text = "";
-var i = 0;
-do {
-  text += "The number is " + i;
-  i++;
-}
-while (i < 5);
-
-
-
-
-
-
-
-
-
-
-
-
-var data = facts.slice(); // make a copy of the passed array
-  
+function theBeatlesPlay(musicians, instruments) {
+  var emptyArray = [];
   var i = 0;
-
-  while (i < data.length) { // fix misspelled length
-
-    data[i] += '!!!'; // use += to add the !!!
-    
-    i++; // increment after adding the !!!
-  }
+    for(i = 0; i < musicians.length; i++) {
+      emptyArray.push(`${musicians}` " plays " `${instruments}`);
+    }
+    return emptyArray;
+}
 
 
 
 
 
 
+function iLoveTheBeatles(number) {
+  var emptyArray = [];
+  do { 
+    emptyArray.push("I love the Beatles!");
+    i++;
+  } while (number < 15);
+} return emptyArray;
 
-var text = "";
-var i = 0;
-while (i < 5) {
-  text += "<br>The number is " + i;
-  i++;
-} */
+
+
+
+
+
+
+
+
+
