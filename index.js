@@ -33,11 +33,18 @@ function theBeatlesPlay(musicians, instruments) {
   var emptyArray = [];
   var i = 0;
     for(i = 0; i < musicians.length; i++) {
-      emptyArray.push(`${musicians}` " plays " `${instruments}`);
+      emptyArray.push(`${musicians[i]}` + " plays " + `${instruments[i]}`);
     }
     return emptyArray;
 }
 
+function johnLennonFacts(facts) {
+  var i = 0;
+    while ( i < facts.length) {
+      facts[i] + "!!!";
+    }
+    return facts;
+}
 
 
 
@@ -50,6 +57,7 @@ function iLoveTheBeatles(number) {
     i++;
   } while (number < 15);
 } return emptyArray;
+
 
 
 
